@@ -1,0 +1,40 @@
+
+.container-fluid{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    justify-content: space-around;
+    padding: 20px;
+}
+.col-lg-3{
+    height: 250px;
+
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+#hexCode{
+    position: relative;
+    top: 80%;
+    left: 8%;
+    font-size: 20px;
+}
+.button{
+    position: relative;
+    top: 80%;
+    left: 43%;
+    width: 200px;
+    height: 75px;
+    border:5px solid white;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.button:hover{
+    scale: 1.1;
+    box-shadow: 3px 3px 30px white;
+    transition: .3s ease-in-out;
+}
